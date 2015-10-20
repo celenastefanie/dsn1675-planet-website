@@ -47,6 +47,27 @@ ul, li {
   padding-bottom: 2em;
 }
 
+@media only screen and (max-width: 24em) {
+
+  ul, li {
+    list-style-type: none;
+    display: block;
+    padding-left: 0;
+    text-shadow: left;
+  }
+
+  header {
+    background-color: #999;
+    text-align: left;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
 @media only screen and (min-width: 25em) {
 
   .crater-1 {
@@ -55,4 +76,27 @@ ul, li {
   .crater-2 {
     padding-left: 1em;
   }
+}
+
+@media only screen and (min-width: 38em) {
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  nav {
+    padding-top: 5%;
+  }
+
+  .crater-1 {
+    padding: 1em;
+  }
+  .crater-2 {
+    padding: 1em;
+  }
+
+  .global {
+    padding: 1em;
+  }
+}
 }
