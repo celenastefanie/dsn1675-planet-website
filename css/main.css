@@ -24,6 +24,14 @@ header {
   padding-bottom: 1.5em;
 }
 
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
 ul, li {
   list-style-type: none;
   display: inline;
@@ -33,6 +41,10 @@ ul, li {
 .img-flex {
   width: 100%;
   display: block;
+}
+
+figcaption {
+  padding-bottom: 10px;
 }
 
 .box-1 {
