@@ -22,6 +22,7 @@ header {
   text-align: center;
   padding-top: .5em;
   padding-bottom: 1.5em;
+  padding:
 }
 
 h2 {
@@ -34,8 +35,21 @@ h3 {
 
 ul, li {
   list-style-type: none;
-  display: inline;
-  padding-left: 0;
+  display: inline-block;
+  margin: 0;
+}
+
+nav {
+  padding: 1em;
+  margin: 0;
+}
+
+.main-li {
+  padding: .5em;
+}
+.main-li:hover {
+  background-color: lightblue;
+
 }
 
 .img-flex {
@@ -59,6 +73,17 @@ figcaption {
   padding-bottom: 2em;
 }
 
+.box-2 {
+  background-color: #999;
+  padding: 1em;
+}
+
+footer {
+  background-color: grey;
+  padding: .5em;
+}
+
+
 @media only screen and (max-width: 24em) {
 
   ul, li {
@@ -80,6 +105,8 @@ figcaption {
   }
 }
 
+
+
 @media only screen and (min-width: 25em) {
 
   .crater-1 {
@@ -87,6 +114,10 @@ figcaption {
   }
   .crater-2 {
     padding-left: 1em;
+  }
+
+  .footer-nav {
+    display: inline;
   }
 }
 
