@@ -21,8 +21,11 @@ header {
   background-color: #999;
   text-align: center;
   padding-top: .5em;
-  padding-bottom: 1.5em;
-  padding:
+  padding-bottom: 0em;
+}
+
+.banner {
+  background-color: lightgrey;
 }
 
 h2 {
@@ -97,7 +100,6 @@ footer {
     background-color: #999;
     text-align: left;
     padding-top: .5em;
-    padding-bottom: 1.5em;
   }
 
   h1 {
