@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font: normal 100%/1.5 Helvetica, sans-serif;
 }
 
 *, *::before, *::after {
@@ -26,29 +26,30 @@ header {
 
 .banner {
   background-color: lightgrey;
-}
-
-h2 {
-  font-size: 2.5em;
-}
-
-h3 {
-  font-size: 1.5em;
+  margin: 0em;
+  padding: 1em;
+  text-align: center;
 }
 
 ul, li {
   list-style-type: none;
   display: inline-block;
   margin: 0;
+  padding-left: 0;
+
 }
 
 nav {
-  padding: 1em;
+  padding-top: 2%;
   margin: 0;
 }
 
 .main-li {
   padding: .5em;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main-li:hover {
@@ -64,8 +65,12 @@ figcaption {
   padding-bottom: 10px;
 }
 
-.box-1 {
-  padding: 1.5em;
+.box {
+  margin: 0.5em;
+}
+
+.caption {
+  margin: 0.5em;
 }
 
 .global {
@@ -88,6 +93,15 @@ footer {
 
 .moons {
   padding: .5em;
+}
+
+.moon-image {
+  padding-bottom: .5em;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-top: 2%;
 }
 
 @media only screen and (max-width: 24em) {
@@ -113,37 +127,32 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
-  .crater-1 {
-    padding-right: 1em;
-  }
-  .crater-2 {
-    padding-left: 1em;
-  }
-
   .footer-nav {
     display: inline;
   }
 }
 
+
 @media only screen and (min-width: 38em) {
+
   html {
-    font-size: 110%;
-    line-height: 1.4;
+  font-size: 120%;
+  line-height: 1.5;
   }
 
   nav {
-    padding-top: 5%;
+  padding-top: 2%;
   }
 
   .crater-1 {
-    padding: 1em;
+  padding: 1em;
   }
+
   .crater-2 {
-    padding: 1em;
+  padding: 1em;
   }
 
   .global {
-    padding: 1em;
+  padding: 1em;
   }
-}
 }
